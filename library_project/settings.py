@@ -54,6 +54,8 @@ INSTALLED_APPS = [
     'books',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://web-production-e143.up.railway.app']
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
